@@ -1,6 +1,12 @@
-# Ejercicio Práctico: Integración Completa del Sistema del Hospital con ReactJS
+# Ejercicio Práctico: Consumo de API en el Sistema del Hospital
 ## Descripción 
-En esta actividad, todas las vistas del sistema del hospital (Home, Servicios, Equipo Médico, Citas) deberán integrar componentes avanzados y técnicas de optimización de ReactJS.Ademas, se manejarán interacciones complejas con datos a través de APIs.
+En esta actividad, se implementa el consumo de una API para obtener y mostrar datos del sistema del hospital, utilizando useEffect y useState, mediante peticiones asíncronas, gestionando el estado y manejen los errores en la aplicación.
+
+### Implementación de Peticiones con useEffect y useState
+### Uso de Fetch API o Axios para el Consumo de la API
+### Peticiones Basadas en Eventos del Usuario
+### Manejo de Errores en Peticiones Asíncronas
+### Optimización del Rendimiento al Omitir Efectos en useEffect
 
 ### Estructura principal de carpetas
 - **assets:** carpeta que contiene los elementos graficos del sitio web, en este caso, imagenes.
@@ -8,6 +14,7 @@ En esta actividad, todas las vistas del sistema del hospital (Home, Servicios, E
 - **public:** contiene los archivos JSON con los cuales se trabaja.
   - appointment.json: archivo que contiene toda la información asociada las citas medicas registradas
   - doctors.json: archivo que contiene toda la información respecto a cada doctor de la clinica.
+  - doctorsComplete.json: archivo que contiene una segunda lista con información de doctores del hospital. esta se  visualiza al presionar el boton "Cargar lista completa" en la pagina de servicios(equipo medico).
   - services.json: archivo que contiene toda la información respecto a cada servicio medico ofrecido por la clinica a sus pacientes.
 - **views:** contienen la estructura basica de las 5 pantallas principales del sitio web, desde ellas se llaman y utilizan los componentes.
   - contact: contiene la pantalla asociada al formulario de contacto.
