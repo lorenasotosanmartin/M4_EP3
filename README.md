@@ -1,12 +1,6 @@
-# Ejercicio Práctico: Consumo de API en el Sistema del Hospital
+# Ejercicio Práctico: Integración Completa del Sistema del Hospital con ReactJS
 ## Descripción 
-En esta actividad, se implementa el consumo de una API para obtener y mostrar datos del sistema del hospital, utilizando useEffect y useState, mediante peticiones asíncronas, gestionando el estado y manejen los errores en la aplicación.
-
-### Implementación de Peticiones con useEffect y useState
-### Uso de Fetch API o Axios para el Consumo de la API
-### Peticiones Basadas en Eventos del Usuario
-### Manejo de Errores en Peticiones Asíncronas
-### Optimización del Rendimiento al Omitir Efectos en useEffect
+En esta actividad, se implementan componentes reutilizables, optimización del rendimiento de la aplicación, se y manejarán interacciones complejas con datos a través de APIs. 
 
 ### Estructura principal de carpetas
 - **assets:** carpeta que contiene los elementos graficos del sitio web, en este caso, imagenes.
